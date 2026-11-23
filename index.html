@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Duane Stevens | Personal Website</title>
+
+  <!-- EDIT: SEO + social sharing. Replace the URL with your GitHub Pages address. -->
+  <meta name="description" content="Personal website of Duane Stevens. About me, projects, skills, and how to get in touch.">
+  <meta name="author" content="Duane Stevens">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="canonical" href="https://duanestevens-glitch.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Duane Stevens | Personal Website">
+  <meta property="og:description" content="Building things on the internet.">
+  <meta property="og:url" content="https://duanestevens-glitch.github.io/">
+  <meta property="og:image" content="https://duanestevens-glitch.github.io/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Duane Stevens | Personal Website">
+  <meta name="twitter:description" content="Building things on the internet.">
+
+  <!-- Simple emoji favicon, no extra file needed -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="#top">Duane Stevens</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+        <span aria-hidden="true" id="theme-icon">☀️</span>
+      </button>
+    </nav>
+
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Hello, I'm</p>
+      <h1 class="hero__title">Duane Stevens</h1>
+      <p class="hero__tagline">Building things on the internet <!-- EDIT: tagline --></p>
+      <a class="btn" href="#projects">See my work</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title" tabindex="-1">
+      <div class="container about">
+        <div class="about__photo" role="img" aria-label="Placeholder for a photo of Duane Stevens">
+          <!-- EDIT: to use a real photo, delete the span below and use:
+               <img src="photo.jpg" alt="Photo of Duane Stevens"> -->
+          <span aria-hidden="true">DS</span>
+        </div>
+        <div class="about__text">
+          <h2 id="about-title">About</h2>
+          <!-- EDIT: replace these paragraphs with your own bio -->
+          <p>Retired Technical Project Manger with experience in global data networking.</p>
+          <p>Available for special projects and consulting.</p>
+          <p> </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--alt" aria-labelledby="projects-title" tabindex="-1">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+        <div class="grid">
+          <!-- EDIT: change each card's title, description, tags, and link -->
+          <article class="card">
+            <h3>Project One</h3>
+            <p>A short description of what this project does and why it matters.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <a class="card__link" href="#" aria-label="View Project One">View Project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>A short description of what this project does and why it matters.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>Python</li><li>Flask</li><li>SQLite</li>
+            </ul>
+            <a class="card__link" href="#" aria-label="View Project Two">View Project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>A short description of what this project does and why it matters.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>Node.js</li><li>API</li><li>Git</li>
+            </ul>
+            <a class="card__link" href="#" aria-label="View Project Three">View Project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Four</h3>
+            <p>A short description of what this project does and why it matters.</p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>Excel</li><li>Power Query</li><li>Automation</li>
+            </ul>
+            <a class="card__link" href="#" aria-label="View Project Four">View Project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" aria-labelledby="skills-title" tabindex="-1">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <!-- EDIT: add or remove <li> items -->
+        <ul class="skills">
+           
+           
+          
+          <li>Claude AI</li>
+          <li>Git &amp; GitHub</li>
+          <li>Project Management</li>
+          <li>Networking</li>
+          <li>Documentation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--alt" aria-labelledby="contact-title" tabindex="-1">
+      <div class="container contact">
+        <h2 id="contact-title">Contact</h2>
+        <p>Have a question or want to work together? I'd love to hear from you.</p>
+        <!-- EDIT: replace the email and the three links below -->
+        <a class="btn" href="mailto:duane@duanestevens.com">duane@duanestevens.com</a>
+        <ul class="social">
+          <li><a href="https://github.com/duanestevens-glitch" rel="noopener" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/duane-stevens/" rel="noopener" target="_blank">LinkedIn</a></li>
+          <li><a href="https://x.com/drspix" rel="noopener" target="_blank">X / Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Duane Stevens. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
